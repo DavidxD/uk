@@ -22,7 +22,8 @@
         url: '/users',
         templateUrl: 'app/states/main/users/users.html',
         controller: 'UsersController',
-        controllerAs: 'users'
+        controllerAs: 'users',
+        label: "Users"
       });
 
     $urlRouterProvider.otherwise('/');
